@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Don Bigodon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/rimg/bigodeicon.ico">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script defer src="js/app1.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <div class="cabecalho">
+            <div id="Logo1">
+                <header>
+                    <figure>
+                        <a href="#content1">
+                            <img id="imgLogo" src="img/rimg/logo2.png" alt="logo">
+                        </a>
+                    </figure>
+                </header>
+            </div>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#content1">Home</a>
+                        </li>
+                        <li>
+                            <a href="#content2">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#content3">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#content4">Funcionários</a>
+                        </li>
+                        <li>
+                            <a href="#content5">Contato</a>
+                        </li>
+                        <li>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Agendamento Online
+                            </button>
+                        </li>
+                    </ul>
+
+                </nav>
+            </header>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Agendamento</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Formulario-->
+                        <div class="row">
+                            <div class="col-auto">
+                                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
+                            </div>
+                            <div class="mb-3">
+                                <br>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="E-mail">
+                            </div>
+
+
+                            <div>
+                                <br>
+                                <label for="sexo">Sexo:</label>
+                                <br>
+                                <input type="radio" class="btn-check" name="sexo" id="success-outlined"
+                                    autocomplete="off" checked>
+                                <label class="btn btn-outline-success" for="success-outlined">Masculino</label>
+
+                                <input type="radio" class="btn-check" name="sexo" id="danger-outlined"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-danger" for="danger-outlined">Feminino</label>
+                            </div>
+
+                            <div class="mb-3">
+                                <br>
+                                <label for="disabledSelect" class="form-label">Horário:</label>
+                                <select id="disabledSelect" class="form-select" name="horario">
+                                    <optgroup label="Manhã">
+                                        <option>8:00</option>
+                                        <option disabled>9:00</option>
+                                        <option disabled>10:00</option>
+                                        <option>11:00</option>
+                                        <option>12:00</option>
+                                    </optgroup>
+                                    <optgroup label="Tarde">
+                                        <option>13:00</option>
+                                        <option disabled>14:00</option>
+                                        <option>15:00</option>
+                                        <option disabled>16:00</option>
+                                        <option>17:00</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="content1">
+            <div class="contentr1">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/rimg/slider0.png" class="d-block w-100" alt="img1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/rimg/slider1.png" class="d-block w-100" alt="img2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/rimg/slider2.png" class="d-block w-100" alt="img3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/rimg/slider3.png" class="d-block w-100" alt="img4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/rimg/slider4.png" class="d-block w-100" alt="img4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="content2">
+            <div class="contentr2">
+                <section id="imgsobren">
+                    <img src="img/rimg/sobrenos.png" alt="sobrenos">
+                </section>
+                <div class="sobrentit">
+                    <div id="titsobren">
+                        <h1>Sobre nós</h1>
+                        <div id="textsobren">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.
+                                <br>Eget est lorem ipsum dolor sit amet consectetur. Ac tortor vitae purus faucibus.
+                                Maecenas
+                                ultricies mi eget mauris pharetra.
+                                <br>Leo integer malesuada nunc vel risus commodo viverra maecenas. Sed enim ut sem
+                                viverra aliquet.
+                                <br>Dictum non consectetur a erat nam at. Quis viverra nibh cras pulvinar mattis nunc
+                                sed.
+                                <br>Purus sit amet volutpat consequat mauris.
+                                <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua.
+                                <br>Varius quam quisque id diam vel. In iaculis nunc sed augue lacus viverra vitae
+                                congue eu.
+                                Volutpat
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="content3">
+            <div id="serv">
+                <h1>Serviços</h1>
+            </div>
+            <div id="imgcontent3">
+                <img src="img/rimg/serv.png" alt="serviços">
+            </div>
+            <div id="compimg1">
+                <img src="img/rimg/cortes.png" alt="cortes">
+            </div>
+            <div id="content3text1">
+                <h2>Cortes</h2>
+            </div>
+            <div id="compimg2">
+                <img src="img/rimg/barbas.png" alt="barbas">
+            </div>
+            <div id="content3text2">
+                <h2>Barbas</h2>
+            </div>
+            <div id="compimg3">
+                <img src="img/rimg/pintura.png" alt="pintura">
+            </div>
+            <div id="content3text3">
+                <h2>Pinturas</h2>
+            </div>
+        </section>
+
+
+
+        <section id="content4">
+            <div id="funci1">
+                <h1>Funcionários</h1>
+            </div>
+            <div id="funciline"></div>
+
+            <div id="fotfunci1">
+                <figure>
+                    <img src="img/rimg/funci1.png" alt="funcionario1">
+                </figure>
+                <div id="nomefunci1">
+                    <h1>Danyel Senna</h1>
+                    <div id="descfunci1">
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            <br> et dolore magna aliqua. Diam phasellus.
+                            <br> Vestibulum sed arcu non.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="fotfunci2">
+                <figure>
+                    <img src="img/rimg/funci2.png" alt="funcionario2">
+                </figure>
+                <div id="nomefunci2">
+                    <h1>Ulisses Maia</h1>
+                </div>
+                <div id="descfunci2">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        <br> et dolore magna aliqua. Diam phasellus.
+                        <br> Vestibulum sed arcu non.
+                    </p>
+                </div>
+            </div>
+
+            <div id="fotfunci3">
+                <figure>
+                    <img src="img/rimg/funci3.png" alt="funcionario3">
+                </figure>
+                <div id="nomefunci3">
+                    <h1>Roberto Teixeira</h1>
+                </div>
+                <div id="descfunci3">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        <br> et dolore magna aliqua. Diam phasellus.
+                        <br> Vestibulum sed arcu non.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section id="content5">
+
+            <div id="funcionamento1">
+                <h1>
+                    Funcionamento e Contato:
+                </h1>
+            </div>
+            <div id="linhafuncionamento1">
+            </div>
+            <div id="imginfo">
+                <img src="img/rimg/funcionamento.png" alt="funcionamento fundo">
+            </div>
+            <div id="horarios1">
+                <h3>Horarios de Funcionamento:</h3>
+            </div>
+            <div id="linhahorarios1"></div>
+            <div id="horariosreal1">
+                <p>De segunda a sábado</p>
+            </div>
+            <div id="horariosreal2">
+                <p><strong>Das 08:00 até as 17:00</strong></p><br>
+                <p>Tel: (21) 998854672</p>
+            </div>
+            <div id="redestext">
+                <h3>Redes sociais</h3>
+            </div>
+            <div id="redes1">
+                <figure>
+                    <img src="img/rimg/facebook.png" alt="">
+                </figure>
+            </div>
+            <div id="localtit">
+                <h2><strong>Local</strong></h2>
+            </div>
+            <div id="realmap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14716.677350985208!2d-43.48042236755216!3d-22.759096124339518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996771048ce2e5%3A0xe17cc3f713e0af85!2sLuz%2C%20Nova%20Igua%C3%A7u%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1675268466421!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+
+</html>

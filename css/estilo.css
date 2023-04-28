@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(black, #464646);
+
+
+}
+#principal{
+    height: 100vh;
+}
+
+
+
+
+
+.cabecalho{
+    top: 0;
+    width: 100%;
+    height: 105px;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+
+
+#imgLogo{
+    width: 180px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 18px 30px;
+    color: white;
+    font-family:'Poppins', Arial, sans-serif;
+    text-align: justify;
+    border-radius: 20px;
+    transition: background 0.6s;
+}
+
+header ul li a:hover , .active{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+#content2{
+    background: linear-gradient(#464646, black);
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+#imgsobren img{
+    width: 40vh;
+    height: 60vh;
+    float: left;
+    margin-left: 5vh;
+    margin-top: 20vh;
+}
+#titsobren h1{
+    color: white;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+#textsobren p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#content3{
+    background: linear-gradient(black, #464646);
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#serv h1{
+    color: white;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#imgcontent3 img{
+    width: 40vh;
+    height: 55vh;
+    float: right;
+    margin-right: 5vh;
+    margin-top: 4vh;
+}
+#compimg1 img{
+    border-radius: 50%;
+    margin-left: 16vh;
+    margin-top: 14vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+#content3text1 h2{
+    color: white;
+    margin-left: 19vh;
+    padding-top: 10px;
+}
+
+#compimg2 img{
+    border-radius: 50%;
+    margin-left: 57vh;
+    margin-top: -37vh;
+    width: 20vh;
+    height: 20vh;
+}
+#content3text2 h2{
+    color: white;
+    margin-left: 59.5vh;
+    margin-top: -65px;
+}
+
+#compimg3 img{
+    border-radius: 50%;
+    margin-left: 96vh;
+    margin-top: -38vh;
+    width: 20vh;
+    height: 20vh;
+}
+#content3text3 h2{
+    color: white;
+    margin-left: 97vh;
+    margin-top: -8vh;
+}
+
+
+
+
+#content4{
+    background: linear-gradient(#464646, black);
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#funci1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#funciline{
+    background-color: white;
+    height: 4px;
+    width: 60vh;
+    margin-left: 67vh;
+}
+
+#fotfunci1{
+    width: 25vh;
+    height: 40vh;
+    float: left;
+    margin-left: 30vh;
+    margin-top: 10vh;
+}
+#fotfunci1 img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+#nomefunci1 h1{
+    color: white;
+    text-align: center;
+}
+#descfunci1 p{
+    color: white;
+    text-align: center;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+
+#fotfunci2{
+width: 25vh;
+height: 40vh;
+float: right;
+margin-right: 30vh;
+margin-top: 10vh;
+}
+#fotfunci2 img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    float: left;
+}
+#nomefunci2 h1{
+    color: white;
+    text-align: center;
+}
+#descfunci2 p{
+    color: white;
+    text-align: center;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+
+#fotfunci3{
+    width: 25vh;
+    height: 40vh;
+    float: right;
+    margin-right: 30vh;
+    margin-top: 10vh;
+}
+#fotfunci3 img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    float: right;
+   
+}
+
+#nomefunci3 h1{
+    color: white;
+    float: right;
+    text-align: center;
+}
+
+#descfunci3 p{
+    color: white;
+    text-align: center;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+#content5{
+    background: linear-gradient(black, #464646);
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#mapa1{
+    background-color: aqua;
+}
+
+#funcionamento1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 15vh
+}
+#linhafuncionamento1{
+    background-color: white;
+    width: 80vh;
+    height: 4px;
+    margin-left: 50vh;
+}
+
+#imginfo img{
+    height: 60vh;
+    width: 45vh;
+    margin-top: 7vh;
+    margin-left: 5vh;
+}
+#horarios1 h3{
+    color: white;
+    margin-left: 53vh;
+    margin-top: -60vh;
+}
+#linhahorarios1{
+    background-color: white;
+    height: 4px;
+    width: 55vh;
+    margin-left: 52.5vh
+}
+#horariosreal1{
+    color: white;
+    font-size: 3vh;
+    margin-left: 53vh;
+    margin-top: 4vh;
+}
+#horariosreal2{
+    color: white;
+    font-size: 3vh;
+    margin-left: 53vh;
+    margin-top: 1vh;
+}
+#redestext h3{
+    color: white;
+    margin-left: 53vh;
+    margin-top: 20vh;
+}
+#redes1 img{
+    height: 5vh;
+    width: 5vh;
+    margin-left: 53vh
+}
+
+#realmap{
+    float: right;
+    margin-top: -20vh;
+    margin-right: 10vh;
+}
+
+#localtit{
+    color: white;
+    float: right;
+    margin-top: -25vh;
+    margin-right: 24vh;
+}
+
+@media (max-width:1400px){
+	#logo{
+		background-color: red;
+	}
+}
+
+@media (max-width:1200px){
+	#logo{
+		background-color: cyan;
+	}
+	
+}
+
+@media (max-width:992px){
+	#logo{
+		background-color: pink;
+	}
+}
+
+@media (max-width:768px){
+	#logo{
+		background-color: brown;
+	}
+}
+
+@media (max-width:576px){
+	
+}
